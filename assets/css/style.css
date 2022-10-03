@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/****************************************
+                NAVBAR
+*****************************************/
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0084fd;
+    color: white;
+    align-items: center;
+}
+
+.mobile{
+    display: none;
+}
+
+.pulsante{
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.fa-bars{
+    font-size: xx-large;
+}
+
+.elementiNav{
+    padding: 5px;
+}
+
+.elementiNav img{
+    margin-left: 10px;
+}
+
+.elementiNav div{
+    margin-right: 10px;
+}
