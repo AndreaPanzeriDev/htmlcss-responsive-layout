@@ -42,6 +42,15 @@
     text-align: center;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.circolare{
+    border-radius: 50%;
+}
 
 /****************************************
                 NAVBAR
@@ -98,11 +107,7 @@
     border-radius: 1em;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    padding-top: 1em;
-}
+
 
 .container p{
     padding: 1em 0 1em 0;
@@ -154,3 +159,18 @@
     color: black;
     text-align: center;
 }
+
+/*******************************
+            SECTION 3
+********************************/
+
+
+.indaco{
+    background-color: #9792e4;
+}
+
+.indaco *{
+    color: white;
+    margin-bottom: 0.5em;
+}
+
