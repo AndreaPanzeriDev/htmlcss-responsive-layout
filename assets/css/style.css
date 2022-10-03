@@ -32,6 +32,10 @@ main{
     padding: 0.5em 3em 0.5em 3em;
 }
 
+.centrato{
+    text-align: center;
+}
+
 
 /****************************************
                 NAVBAR
@@ -73,7 +77,10 @@ main{
          SECTION 1
 ***********************************/
 
-
+#section1 h2{
+    color: #0084fd;
+    padding-top: 1em;
+}
 
 
 .box{
@@ -97,5 +104,10 @@ main{
 .container img{
     max-width: 100%;
     margin-top: 1.5em;
+    display: block;
 }
 
+.fa-file-code{
+    font-size: 450%;
+    color: #0084fd;
+}
