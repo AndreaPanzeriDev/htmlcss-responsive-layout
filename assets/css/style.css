@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-main{
-    width: 85%;
-    margin: auto;
-}
-
 
 
 /***************************************
@@ -30,6 +25,17 @@ main{
     background-color: #0084fd;
     border: 1px solid #0084fd;
     padding: 0.5em 3em 0.5em 3em;
+}
+
+.viola{
+    background-color: #9792e4;
+    border: none;
+}
+
+.download{
+    border-radius: 100%;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
 }
 
 .centrato{
@@ -84,7 +90,8 @@ main{
 
 
 .box{
-    width: 100%;
+    width: 85%;
+    margin: auto;
     height: auto;
     background-color: #b5ddff;
     margin-top: 2em;
@@ -114,4 +121,36 @@ main{
 {
     font-size: 450%;
     color: #0084fd;
+}
+
+
+
+
+/***************************
+         SECTION 2
+****************************/
+
+#section2{
+    width: 100%;
+    background-color: #9792e4;
+    height: auto;
+    margin-top: 2.5em;
+    color: white;
+    padding-bottom: 3em;
+}
+
+
+.container h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.box2{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
 }
