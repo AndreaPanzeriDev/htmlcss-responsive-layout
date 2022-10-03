@@ -50,8 +50,8 @@
 }
 
 .circolare{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -231,4 +231,36 @@ section h3{
 
 /*******************************
             SECTION 5
+********************************/
+
+#section5{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 3em;
+}
+
+
+
+.immagine{
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+
+
+#position{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    font-size: xx-large;
+    color: #9792e4;
+}
+
+.immagine h2{
+    color: #9792e4;
+}
+
+/*******************************
+            SECTION 6
 ********************************/
