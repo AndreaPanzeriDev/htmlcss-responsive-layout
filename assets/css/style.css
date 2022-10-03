@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+main{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+/***************************************
+            LAYOUT GENERALI
+****************************************/
+
+.pulsante{
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.bianco{
+    border: 1px solid white;
+    background-color: white;
+}
+
+.blu{
+    color: white;
+    background-color: #0084fd;
+    border: 1px solid #0084fd;
+    padding: 0.5em 3em 0.5em 3em;
+}
+
+
 /****************************************
                 NAVBAR
 *****************************************/
@@ -22,12 +51,6 @@
     display: none;
 }
 
-.pulsante{
-    background-color: white;
-    padding: 3px;
-    border-radius: 10px;
-    border: 1px solid white;
-}
 
 .fa-bars{
     font-size: xx-large;
@@ -44,3 +67,35 @@
 .elementiNav div{
     margin-right: 10px;
 }
+
+
+/*********************************
+         SECTION 1
+***********************************/
+
+
+
+
+.box{
+    width: 100%;
+    height: auto;
+    background-color: #b5ddff;
+    margin-top: 2em;
+    border-radius: 1em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.container p{
+    padding: 1em 0 1em 0;
+}
+
+.container img{
+    max-width: 100%;
+    margin-top: 1.5em;
+}
+
