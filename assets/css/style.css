@@ -107,7 +107,9 @@ main{
     display: block;
 }
 
-.fa-file-code{
+.fa-file-code,
+.fa-laptop-code
+{
     font-size: 450%;
     color: #0084fd;
 }
