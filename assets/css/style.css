@@ -32,6 +32,7 @@
     border: none;
 }
 
+
 .download{
     border-radius: 100%;
     padding: 1em 1.2em;
@@ -49,19 +50,32 @@
 }
 
 .circolare{
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.left{
+    text-align: left;
 }
 
 /****************************************
                 NAVBAR
 *****************************************/
 
-.navbar{
+header{
     width: 100%;
     height: auto;
+    background-color: #0084fd;
+}
+
+.navbar{
+    width: 80%;
+    height: auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: #0084fd;
     color: white;
     align-items: center;
 }
@@ -76,15 +90,7 @@
 }
 
 .elementiNav{
-    padding: 5px;
-}
-
-.elementiNav img{
-    margin-left: 10px;
-}
-
-.elementiNav div{
-    margin-right: 10px;
+    padding: 0.5em 0 0.5em 0;
 }
 
 
@@ -99,7 +105,7 @@
 
 
 .box{
-    width: 85%;
+    width: 80%;
     margin: auto;
     height: auto;
     background-color: #b5ddff;
@@ -157,13 +163,16 @@
     background-color: white;
     border-radius: 30px;
     color: black;
-    text-align: center;
+    margin-bottom: 1.5em;
 }
 
 /*******************************
             SECTION 3
 ********************************/
 
+#section3{
+    margin-bottom: 5em;
+}
 
 .indaco{
     background-color: #9792e4;
@@ -171,6 +180,55 @@
 
 .indaco *{
     color: white;
-    margin-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
+
+/*******************************
+            SECTION 4
+********************************/
+
+#section4{
+    width: 100%;
+    height: auto;
+    background-color: #9792e4;
+    margin-top: 5em;
+    margin: auto;
+    padding-bottom: 3em;
+}
+
+#section4 h2{
+    color: white;
+    text-align: center;
+}
+
+
+.numerazione{
+    font-size: xx-large;
+    color: #9792e4;
+    font-weight: bolder;
+}
+
+section h3{
+    color: #9792e4;
+}
+
+.aggiustamento{
+    width: 90%;
+    margin: auto;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+.aggiustamento h3{
+    padding: 0.5em 0 0.5em 0;
+}
+
+.largo{
+    padding: 0.5em 3em 0.5em 3em;
+    color: white;
+}
+
+/*******************************
+            SECTION 5
+********************************/
