@@ -32,6 +32,10 @@
     border: none;
 }
 
+.sviola{
+    color: #9792e4;
+    padding: 0.5em 3em 0.5em 3em;
+}
 
 .download{
     border-radius: 100%;
@@ -264,3 +268,34 @@ section h3{
 /*******************************
             SECTION 6
 ********************************/
+
+#section6{
+    width: 100%;
+    height: auto;
+    background-color: #9792e4;
+    margin-top: 3em;
+    text-align: center;
+}
+
+#section6  p:first-child{
+    color: lightgray;
+}
+
+#section6  p:last-child{
+    color: white;
+}
+
+#section6 h2{
+    color: white;
+}
+
+#gold{
+    color: gold;
+    font-size: 4em;
+}
+
+#copyright{
+    margin-top: 1em;
+    color: white;
+    font-size: 0.9em;
+}
