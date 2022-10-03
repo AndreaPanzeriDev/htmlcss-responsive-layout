@@ -294,8 +294,22 @@ section h3{
     font-size: 4em;
 }
 
-#copyright{
-    margin-top: 1em;
+.copyright{
+    padding-top: 2.3em;
     color: white;
     font-size: 0.9em;
+}
+
+
+/*******************************
+            FOOTER
+********************************/
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 1em;
 }
