@@ -272,8 +272,8 @@ header{
 .position{
     position: absolute;
     top: 0;
-    right: 50%;
-    font-size: xx-large;
+    right: 15%;
+    font-size: 3rem;
     color: #9792e4;
 }
 
@@ -419,13 +419,14 @@ footer{
     }
 
     .divisione1{
-        width: 50%
+        flex-basis: 50%;
     }
 
     .divisione2{
-        width: 30%;
-        margin-left: 3rem;
+        flex-basis: 40%;
+        text-align: center;
     }
+    
 }
 
 
@@ -475,6 +476,13 @@ footer{
     }
 
 
-    /*SECTION5*/
+    .divisione1{
+        width: 50%
+    }
+
+    .divisione2{
+        width: 15%;
+        margin-left: 3rem;
+    }
     
 }
