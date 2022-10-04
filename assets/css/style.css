@@ -221,7 +221,7 @@ header{
 
 
 .numerazione{
-    font-size: xx-large;
+    font-size: 3rem;
     color: #9792e4;
     font-weight: bolder;
 }
@@ -373,6 +373,7 @@ footer{
     .circolare{
         margin-left: 1rem;
         align-self: center;
+        max-width: 100%;
     }
 
     .indaco div{
@@ -391,6 +392,15 @@ footer{
         width: calc(50% - 2rem);
         margin: 1rem;
     }
+
+    #section4 .box2 h3{
+        color: #9792e4;
+    }
+
+    .numerazione{
+        font-size: 4rem;
+    }
+
 
     /*SECTION5*/
 
