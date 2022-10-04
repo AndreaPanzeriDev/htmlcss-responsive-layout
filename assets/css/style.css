@@ -322,3 +322,45 @@ footer{
     text-align: center;
     padding-bottom: 1em;
 }
+
+
+/*******************************
+            TABLET
+********************************/
+
+@media screen and (min-width:768px){
+
+    .navbar,
+    .box{
+        width: 90%;
+    }
+
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box:first-child{
+        width: calc( 60% - 1rem);
+    }
+
+    .box{
+        width: calc(30% - 1rem);
+        margin-bottom: 0;
+    }
+
+    .telefono{
+        max-width: 50%;
+    }
+
+
+    /*SECTION2*/
+
+    #section2 h2{
+        font-size: 3rem;
+    }
+
+    .box2{
+        width: 100%;
+    }
+}
