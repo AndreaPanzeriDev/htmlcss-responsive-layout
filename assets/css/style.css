@@ -97,6 +97,10 @@ header{
     padding: 0.5em 0 0.5em 0;
 }
 
+.coloreviola{
+    color: #9792e4;
+}
+
 
 /*********************************
          SECTION 1
@@ -167,7 +171,7 @@ header{
 }
 
 .box2{
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: auto;
     background-color: white;
@@ -222,9 +226,7 @@ header{
     font-weight: bolder;
 }
 
-section h3{
-    color: #9792e4;
-}
+
 
 .aggiustamento{
     width: 90%;
@@ -360,7 +362,32 @@ footer{
         font-size: 3rem;
     }
 
-    .box2{
-        width: 100%;
+
+    /*SECTION3*/
+
+    #section3 .box2{
+        display: flex;
+    }
+
+    .circolare{
+        margin-left: 1rem;
+        align-self: center;
+    }
+
+    .indaco div{
+        text-align: left;
+        margin: 1rem 0 0 2rem;
+    }
+
+
+    /*SECTION4*/
+    .benefit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section4 .box2{
+        width: calc(50% - 2rem);
+        margin: 1rem;
     }
 }
