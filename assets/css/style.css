@@ -344,7 +344,7 @@ footer{
     }
 
     .box:first-child{
-        width: calc( 60% - 1rem);
+        width: calc( 60% + 0.5rem);
     }
 
     .box{
