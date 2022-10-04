@@ -62,7 +62,9 @@
     margin-top: 1em;
 }
 
-
+.relative{
+    position: relative;
+}
 
 /****************************************
                 NAVBAR
@@ -100,6 +102,8 @@ header{
 .coloreviola{
     color: #9792e4;
 }
+
+
 
 
 /*********************************
@@ -260,13 +264,12 @@ header{
 
 
 .immagine{
-    position: relative;
     left: 3px;
     top: 3px;
 }
 
 
-#position{
+.position{
     position: absolute;
     top: 0;
     right: 50%;
@@ -412,11 +415,16 @@ footer{
     #section5 .container{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .divisione{
-        width: calc(50% - 2rem);
-        margin: 1rem;
+    .divisione1{
+        width: 50%
+    }
+
+    .divisione2{
+        width: 30%;
+        margin-left: 3rem;
     }
 }
 
@@ -466,4 +474,7 @@ footer{
         margin: 1rem;
     }
 
+
+    /*SECTION5*/
+    
 }
