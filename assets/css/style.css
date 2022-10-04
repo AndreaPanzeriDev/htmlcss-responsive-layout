@@ -131,6 +131,7 @@ header{
     max-width: 100%;
     margin-top: 1.5em;
     display: block;
+    margin: auto;
 }
 
 .fa-file-code,
@@ -412,5 +413,17 @@ footer{
     .divisione{
         width: calc(50% - 2rem);
         margin: 1rem;
+    }
+}
+
+
+/*******************************
+            COMPUTER
+********************************/
+
+@media screen and (min-width:1160px){
+
+    .flex{
+        display: flex;
     }
 }
